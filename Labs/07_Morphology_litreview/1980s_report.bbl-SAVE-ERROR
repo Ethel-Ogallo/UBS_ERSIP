@@ -1,0 +1,731 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{apa/apasortcite//global/global/global}
+    \entry{aptoulaComparativeStudyMultivariate2007}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a169508c161367c3e2644e59d390b59b}{%
+           family={Aptoula},
+           familyi={A\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=243bae418773cffbb7c636df61a35308}{%
+           family={Lefèvre},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a944b891fb7930feee0cb337611dca99}
+      \strng{fullhash}{a944b891fb7930feee0cb337611dca99}
+      \strng{fullhashraw}{a944b891fb7930feee0cb337611dca99}
+      \strng{bibnamehash}{a944b891fb7930feee0cb337611dca99}
+      \strng{authorbibnamehash}{a944b891fb7930feee0cb337611dca99}
+      \strng{authornamehash}{a944b891fb7930feee0cb337611dca99}
+      \strng{authorfullhash}{a944b891fb7930feee0cb337611dca99}
+      \strng{authorfullhashraw}{a944b891fb7930feee0cb337611dca99}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The successful application of univariate morphological operators on several domains, along with the increasing need for processing the plethora of available multivalued images, have been the main motives behind the efforts concentrated on extending the mathematical morphology framework to multivariate data. The few theoretical requirements of this extension, consisting primarily of a ranking scheme as well as extrema operators for vectorial data, have led to numerous suggestions with diverse properties. However, none of them has yet been widely accepted. Furthermore, the comparison research work in the current literature, evaluating the results obtained from these approaches, is either outdated or limited to a particular application domain. In this paper, a comprehensive review of the proposed multivariate morphological frameworks is provided. In particular, they are examined mainly with respect to their data ordering methodologies. Additionally, the results of a brief series of illustrative application oriented tests of selected vector orderings on colour and multispectral remote sensing data are also discussed.}
+      \field{issn}{00313203}
+      \field{journaltitle}{Pattern Recognition}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{11}
+      \field{shortjournal}{Pattern Recognition}
+      \field{title}{A Comparative Study on Multivariate Mathematical Morphology}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{volume}{40}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{2914\bibrangedash 2929}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/j.patcog.2007.02.004
+      \endverb
+      \verb{file}
+      \verb C:\Users\Ethel Ogallo\Zotero\storage\QJVKJYLR\Aptoula and Lefèvre - 2007 - A comparative study on multivariate mathematical morphology.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0031320307000891
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0031320307000891
+      \endverb
+    \endentry
+    \entry{baladoMathematicalMorphologyDirectly2020}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=de494a058cb411e5c7ed17cc1306c637}{%
+           family={Balado},
+           familyi={B\bibinitperiod},
+           given={Jesús},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,useprefix=true,hash=2c606c12542297f1b3604ffbb63685f2}{%
+           family={Oosterom},
+           familyi={O\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=980221962026a559b0f52e96ef974f35}{%
+           family={Díaz-Vilariño},
+           familyi={D\bibinithyphendelim V\bibinitperiod},
+           given={Lucía},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e7cd834a2464b131a37773d988c8352e}{%
+           family={Meijers},
+           familyi={M\bibinitperiod},
+           given={Martijn},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{acc532b5e3df4dcb6bd864b1b3a50cd6}
+      \strng{fullhash}{d864d35ab8f7836055eafdbfdb8b31b2}
+      \strng{fullhashraw}{d864d35ab8f7836055eafdbfdb8b31b2}
+      \strng{bibnamehash}{d864d35ab8f7836055eafdbfdb8b31b2}
+      \strng{authorbibnamehash}{d864d35ab8f7836055eafdbfdb8b31b2}
+      \strng{authornamehash}{acc532b5e3df4dcb6bd864b1b3a50cd6}
+      \strng{authorfullhash}{d864d35ab8f7836055eafdbfdb8b31b2}
+      \strng{authorfullhashraw}{d864d35ab8f7836055eafdbfdb8b31b2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Many of the point cloud processing techniques have their origin in image processing. But mathematical morphology, despite being one of the most used image processing techniques, has not yet been clearly adapted to point clouds. The aim of this work is to design the basic operations of mathematical morphology applicable to 3D point cloud data, without the need to transform point clouds to 2D or 3D images and avoiding the associated problems of resolution loss and orientation restrictions. The object shapes in images, based on pixel values, are assumed to be the existence or absence of points, therefore, morphological dilation and erosion operations are focused on the addition and removal of points according to the structuring element. The structuring element, in turn, is defined as a point cloud with characteristics of shape, size, orientation, point density, and one reference point. The designed method has been tested on point clouds artificially generated, acquired from real case studies, and the Stanford bunny model. The results show a robust behaviour against point density variations and consistent with image processing equivalent. The proposed method is easy and fast to implement, although the selection of a correct structuring element requires previous knowledge about the problem and the input point cloud. Besides, the proposed method solves well-known point cloud processing problems such as object detection, segmentation, and gap filling.}
+      \field{day}{1}
+      \field{issn}{0924-2716}
+      \field{journaltitle}{ISPRS Journal of Photogrammetry and Remote Sensing}
+      \field{month}{10}
+      \field{shortjournal}{ISPRS Journal of Photogrammetry and Remote Sensing}
+      \field{title}{Mathematical Morphology Directly Applied to Point Cloud Data}
+      \field{urlday}{29}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{168}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{208\bibrangedash 220}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/j.isprsjprs.2020.08.011
+      \endverb
+      \verb{file}
+      \verb C:\Users\Ethel Ogallo\Zotero\storage\36HKW5NY\S0924271620302264.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0924271620302264
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0924271620302264
+      \endverb
+      \keyw{Detection,Image processing,LiDAR,Occlusion correction,Point cloud processing,Segmentation}
+    \endentry
+    \entry{destivalMathematicalMorphology1986}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fe84174ce2f4399177264cf052b0035b}{%
+           family={Destival},
+           familyi={D\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Pergamon Journals Ltd}%
+      }
+      \strng{namehash}{fe84174ce2f4399177264cf052b0035b}
+      \strng{fullhash}{fe84174ce2f4399177264cf052b0035b}
+      \strng{fullhashraw}{fe84174ce2f4399177264cf052b0035b}
+      \strng{bibnamehash}{fe84174ce2f4399177264cf052b0035b}
+      \strng{authorbibnamehash}{fe84174ce2f4399177264cf052b0035b}
+      \strng{authornamehash}{fe84174ce2f4399177264cf052b0035b}
+      \strng{authorfullhash}{fe84174ce2f4399177264cf052b0035b}
+      \strng{authorfullhashraw}{fe84174ce2f4399177264cf052b0035b}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Remote sensing is a great help for experts who need to know the surface of the Earth. The problem is now to insert into a numerical treatment of spatial images an automatic detection of shapes and structures relevant within a given problem. Classical methods based on linear transformations remain limited, but mathematical morphology provides a new method to analyze shapes globally.}
+      \field{journaltitle}{Acta Astronautica}
+      \field{langid}{english}
+      \field{number}{6/7}
+      \field{title}{Mathematical Morphology Applied to Remote Sensing}
+      \field{volume}{13}
+      \field{year}{1986}
+      \field{pages}{371\bibrangedash 385}
+      \range{pages}{15}
+      \verb{file}
+      \verb C:\Users\Ethel Ogallo\Zotero\storage\LKVRVP9I\Destival - MATHEMATICAL MORPHOLOGY APPLIED TO REMOTE SENSINGt.pdf
+      \endverb
+    \endentry
+    \entry{flouzatReviewImageAnalysis1989}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5994ddbfa0cabd06bec9795ba531c10a}{%
+           family={Flouzat},
+           familyi={F\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Vancouver, Canada}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{5994ddbfa0cabd06bec9795ba531c10a}
+      \strng{fullhash}{5994ddbfa0cabd06bec9795ba531c10a}
+      \strng{fullhashraw}{5994ddbfa0cabd06bec9795ba531c10a}
+      \strng{bibnamehash}{5994ddbfa0cabd06bec9795ba531c10a}
+      \strng{authorbibnamehash}{5994ddbfa0cabd06bec9795ba531c10a}
+      \strng{authornamehash}{5994ddbfa0cabd06bec9795ba531c10a}
+      \strng{authorfullhash}{5994ddbfa0cabd06bec9795ba531c10a}
+      \strng{authorfullhashraw}{5994ddbfa0cabd06bec9795ba531c10a}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This synthesis paper proposes to show the principal contributions of Mathematical Morphology (MM) to extracting information from an image.}
+      \field{eventtitle}{12th {{Canadian Symposium}} on {{Remote Sensing Geoscience}} and {{Remote Sensing Symposium}},}
+      \field{journaltitle}{12th {{Canadian Symposium}} on {{Remote Sensing Geoscience}} and {{Remote Sensing Symposium}},}
+      \field{langid}{english}
+      \field{title}{Review {{On Image Analysis With Mathematical Morphology In Remote Sensing}}}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{volume}{4}
+      \field{year}{1989}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{2424\bibrangedash 2429}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/IGARSS.1989.577887
+      \endverb
+      \verb{file}
+      \verb C:\Users\Ethel Ogallo\Zotero\storage\I8PPT2HG\Flouzat - 1989 - Review On Image Analysis With Mathematical Morphology In Remote Sensing.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://ieeexplore.ieee.org/document/577887/
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/577887/
+      \endverb
+    \endentry
+    \entry{pesaresiNewApproachMorphological2001}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=0b03addc59567927d86b0e8336aca211}{%
+           family={Pesaresi},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=910b318e6ccdbd1376ea63bbaeeb47f1}{%
+           family={Benediktsson},
+           familyi={B\bibinitperiod},
+           given={J.A.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b28b6e7bc17ec6e0feadbc5208eda147}
+      \strng{fullhash}{b28b6e7bc17ec6e0feadbc5208eda147}
+      \strng{fullhashraw}{b28b6e7bc17ec6e0feadbc5208eda147}
+      \strng{bibnamehash}{b28b6e7bc17ec6e0feadbc5208eda147}
+      \strng{authorbibnamehash}{b28b6e7bc17ec6e0feadbc5208eda147}
+      \strng{authornamehash}{b28b6e7bc17ec6e0feadbc5208eda147}
+      \strng{authorfullhash}{b28b6e7bc17ec6e0feadbc5208eda147}
+      \strng{authorfullhashraw}{b28b6e7bc17ec6e0feadbc5208eda147}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A new segmentation method based on the morphological characteristic of connected components in images is proposed. Theoretical definitions of morphological leveling and morphological spectrum are used in the formal definition of a morphological characteristic. In multiscale segmentation, this characteristic is formalized through the derivative of the morphological profile. Multiscale segmentation is particularly well suited for complex image scenes such as aerial or fine resolution satellite images, where very thin, enveloped and/or nested regions must be retained. The proposed method performs well in the presence of both low radiometric contrast and relatively low spatial resolution. Those factors may produce a textural effect, a border effect, and ambiguity in the object/background distinction. Segmentation examples for satellite images are given.}
+      \field{issn}{01962892}
+      \field{journaltitle}{IEEE Transactions on Geoscience and Remote Sensing}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{2}
+      \field{shortjournal}{IEEE Trans. Geosci. Remote Sensing}
+      \field{title}{A New Approach for the Morphological Segmentation of High-Resolution Satellite Imagery}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{volume}{39}
+      \field{year}{2001}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{309\bibrangedash 320}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/36.905239
+      \endverb
+      \verb{file}
+      \verb C:\Users\Ethel Ogallo\Zotero\storage\KMII5DYH\Pesaresi and Benediktsson - 2001 - A new approach for the morphological segmentation of high-resolution satellite imagery.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://ieeexplore.ieee.org/document/905239/
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/905239/
+      \endverb
+    \endentry
+    \entry{soilleAdvancesMathematicalMorphology2002}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3c250b7275b2d28a4fc4b9a0b1b7d80e}{%
+           family={Soille},
+           familyi={S\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0b03addc59567927d86b0e8336aca211}{%
+           family={Pesaresi},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e15244f3cb4920efd6fae1a8d4f15f00}
+      \strng{fullhash}{e15244f3cb4920efd6fae1a8d4f15f00}
+      \strng{fullhashraw}{e15244f3cb4920efd6fae1a8d4f15f00}
+      \strng{bibnamehash}{e15244f3cb4920efd6fae1a8d4f15f00}
+      \strng{authorbibnamehash}{e15244f3cb4920efd6fae1a8d4f15f00}
+      \strng{authornamehash}{e15244f3cb4920efd6fae1a8d4f15f00}
+      \strng{authorfullhash}{e15244f3cb4920efd6fae1a8d4f15f00}
+      \strng{authorfullhashraw}{e15244f3cb4920efd6fae1a8d4f15f00}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{By concentrating on the analysis of the spatial relationships between groups of pixels, mathematical morphology provides us with an image processing strategy complementary to those based on the analysis of the spectral signature of single pixels. A wide variety of morphological transformations are available for extracting structural information in spatial data. Accordingly, a stream of successful applications in geoscience and remote sensing have been reported since the mid-1980s as highlighted in a brief survey. However, recent advances in the theory of mathematical morphology still remain largely unexplored. We show in this paper that they can enhance methodologies for the processing and analysis of earth observation data for tasks as diverse as filtering, simplification, directional segmentation and crest line extraction. We also address important issues overlooked in the past and concerning the applicability of a given morphological filter to earth observation data. In particular, we point out that self-dual or even self-complementary filters are required in many applications to produce results independent of the local contrast of the searched image structures.}
+      \field{issn}{0196-2892}
+      \field{journaltitle}{IEEE Transactions on Geoscience and Remote Sensing}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{9}
+      \field{shortjournal}{IEEE Trans. Geosci. Remote Sensing}
+      \field{title}{Advances in Mathematical Morphology Applied to Geoscience and Remote Sensing}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{volume}{40}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{2042\bibrangedash 2055}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1109/TGRS.2002.804618
+      \endverb
+      \verb{file}
+      \verb C:\Users\Ethel Ogallo\Zotero\storage\6QU5PEBC\Soille and Pesaresi - 2002 - Advances in mathematical morphology applied to geoscience and remote sensing.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://ieeexplore.ieee.org/document/1046853/
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/1046853/
+      \endverb
+    \endentry
+  \enddatalist
+  \datalist[entry]{apa/global//global/global/global}
+    \entry{aptoulaComparativeStudyMultivariate2007}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=a169508c161367c3e2644e59d390b59b}{%
+           family={Aptoula},
+           familyi={A\bibinitperiod},
+           given={E.},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=243bae418773cffbb7c636df61a35308}{%
+           family={Lefèvre},
+           familyi={L\bibinitperiod},
+           given={S.},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a944b891fb7930feee0cb337611dca99}
+      \strng{fullhash}{a944b891fb7930feee0cb337611dca99}
+      \strng{fullhashraw}{a944b891fb7930feee0cb337611dca99}
+      \strng{bibnamehash}{a944b891fb7930feee0cb337611dca99}
+      \strng{authorbibnamehash}{a944b891fb7930feee0cb337611dca99}
+      \strng{authornamehash}{a944b891fb7930feee0cb337611dca99}
+      \strng{authorfullhash}{a944b891fb7930feee0cb337611dca99}
+      \strng{authorfullhashraw}{a944b891fb7930feee0cb337611dca99}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The successful application of univariate morphological operators on several domains, along with the increasing need for processing the plethora of available multivalued images, have been the main motives behind the efforts concentrated on extending the mathematical morphology framework to multivariate data. The few theoretical requirements of this extension, consisting primarily of a ranking scheme as well as extrema operators for vectorial data, have led to numerous suggestions with diverse properties. However, none of them has yet been widely accepted. Furthermore, the comparison research work in the current literature, evaluating the results obtained from these approaches, is either outdated or limited to a particular application domain. In this paper, a comprehensive review of the proposed multivariate morphological frameworks is provided. In particular, they are examined mainly with respect to their data ordering methodologies. Additionally, the results of a brief series of illustrative application oriented tests of selected vector orderings on colour and multispectral remote sensing data are also discussed.}
+      \field{issn}{00313203}
+      \field{journaltitle}{Pattern Recognition}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{number}{11}
+      \field{shortjournal}{Pattern Recognition}
+      \field{title}{A Comparative Study on Multivariate Mathematical Morphology}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{volume}{40}
+      \field{year}{2007}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{2914\bibrangedash 2929}
+      \range{pages}{16}
+      \verb{doi}
+      \verb 10.1016/j.patcog.2007.02.004
+      \endverb
+      \verb{file}
+      \verb C:\Users\Ethel Ogallo\Zotero\storage\QJVKJYLR\Aptoula and Lefèvre - 2007 - A comparative study on multivariate mathematical morphology.pdf
+      \endverb
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0031320307000891
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S0031320307000891
+      \endverb
+    \endentry
+    \entry{baladoMathematicalMorphologyDirectly2020}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=de494a058cb411e5c7ed17cc1306c637}{%
+           family={Balado},
+           familyi={B\bibinitperiod},
+           given={Jesús},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,useprefix=true,hash=2c606c12542297f1b3604ffbb63685f2}{%
+           family={Oosterom},
+           familyi={O\bibinitperiod},
+           given={Peter},
+           giveni={P\bibinitperiod},
+           givenun=0,
+           prefix={van},
+           prefixi={v\bibinitperiod}}}%
+        {{un=0,uniquepart=base,hash=980221962026a559b0f52e96ef974f35}{%
+           family={Díaz-Vilariño},
+           familyi={D\bibinithyphendelim V\bibinitperiod},
+           given={Lucía},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e7cd834a2464b131a37773d988c8352e}{%
+           family={Meijers},
+           familyi={M\bibinitperiod},
+           given={Martijn},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{acc532b5e3df4dcb6bd864b1b3a50cd6}
+      \strng{fullhash}{d864d35ab8f7836055eafdbfdb8b31b2}
+      \strng{fullhashraw}{d864d35ab8f7836055eafdbfdb8b31b2}
+      \strng{bibnamehash}{d864d35ab8f7836055eafdbfdb8b31b2}
+      \strng{authorbibnamehash}{d864d35ab8f7836055eafdbfdb8b31b2}
+      \strng{authornamehash}{acc532b5e3df4dcb6bd864b1b3a50cd6}
+      \strng{authorfullhash}{d864d35ab8f7836055eafdbfdb8b31b2}
+      \strng{authorfullhashraw}{d864d35ab8f7836055eafdbfdb8b31b2}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Many of the point cloud processing techniques have their origin in image processing. But mathematical morphology, despite being one of the most used image processing techniques, has not yet been clearly adapted to point clouds. The aim of this work is to design the basic operations of mathematical morphology applicable to 3D point cloud data, without the need to transform point clouds to 2D or 3D images and avoiding the associated problems of resolution loss and orientation restrictions. The object shapes in images, based on pixel values, are assumed to be the existence or absence of points, therefore, morphological dilation and erosion operations are focused on the addition and removal of points according to the structuring element. The structuring element, in turn, is defined as a point cloud with characteristics of shape, size, orientation, point density, and one reference point. The designed method has been tested on point clouds artificially generated, acquired from real case studies, and the Stanford bunny model. The results show a robust behaviour against point density variations and consistent with image processing equivalent. The proposed method is easy and fast to implement, although the selection of a correct structuring element requires previous knowledge about the problem and the input point cloud. Besides, the proposed method solves well-known point cloud processing problems such as object detection, segmentation, and gap filling.}
+      \field{day}{1}
+      \field{issn}{0924-2716}
+      \field{journaltitle}{ISPRS Journal of Photogrammetry and Remote Sensing}
+      \field{month}{10}
+      \field{shortjournal}{ISPRS Journal of Photogrammetry and Remote Sensing}
+      \field{title}{Mathematical Morphology Directly Applied to Point Cloud Data}
+      \field{urlday}{29}
+      \field{urlmonth}{11}
+      \field{urlyear}{2025}
+      \field{volume}{168}
+      \field{year}{2020}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{208\bibrangedash 220}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1016/j.isprsjprs.2020.08.011
+      \endverb
+      \verb{file}
+      \verb C:\Users\Ethel Ogallo\Zotero\storage\36HKW5NY\S0924271620302264.html
+      \endverb
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/S0924271620302264
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/S0924271620302264
+      \endverb
+      \keyw{Detection,Image processing,LiDAR,Occlusion correction,Point cloud processing,Segmentation}
+    \endentry
+    \entry{destivalMathematicalMorphology1986}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fe84174ce2f4399177264cf052b0035b}{%
+           family={Destival},
+           familyi={D\bibinitperiod},
+           given={I.},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Pergamon Journals Ltd}%
+      }
+      \strng{namehash}{fe84174ce2f4399177264cf052b0035b}
+      \strng{fullhash}{fe84174ce2f4399177264cf052b0035b}
+      \strng{fullhashraw}{fe84174ce2f4399177264cf052b0035b}
+      \strng{bibnamehash}{fe84174ce2f4399177264cf052b0035b}
+      \strng{authorbibnamehash}{fe84174ce2f4399177264cf052b0035b}
+      \strng{authornamehash}{fe84174ce2f4399177264cf052b0035b}
+      \strng{authorfullhash}{fe84174ce2f4399177264cf052b0035b}
+      \strng{authorfullhashraw}{fe84174ce2f4399177264cf052b0035b}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Remote sensing is a great help for experts who need to know the surface of the Earth. The problem is now to insert into a numerical treatment of spatial images an automatic detection of shapes and structures relevant within a given problem. Classical methods based on linear transformations remain limited, but mathematical morphology provides a new method to analyze shapes globally.}
+      \field{journaltitle}{Acta Astronautica}
+      \field{langid}{english}
+      \field{number}{6/7}
+      \field{title}{Mathematical Morphology Applied to Remote Sensing}
+      \field{volume}{13}
+      \field{year}{1986}
+      \field{pages}{371\bibrangedash 385}
+      \range{pages}{15}
+      \verb{file}
+      \verb C:\Users\Ethel Ogallo\Zotero\storage\LKVRVP9I\Destival - MATHEMATICAL MORPHOLOGY APPLIED TO REMOTE SENSINGt.pdf
+      \endverb
+    \endentry
+    \entry{flouzatReviewImageAnalysis1989}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5994ddbfa0cabd06bec9795ba531c10a}{%
+           family={Flouzat},
+           familyi={F\bibinitperiod},
+           given={G.},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Vancouver, Canada}%
+      }
+      \list{publisher}{1}{%
+        {IEEE}%
+      }
+      \strng{namehash}{5994ddbfa0cabd06bec9795ba531c10a}
+      \strng{fullhash}{5994ddbfa0cabd06bec9795ba531c10a}
+      \strng{fullhashraw}{5994ddbfa0cabd06bec9795ba531c10a}
+      \strng{bibnamehash}{5994ddbfa0cabd06bec9795ba531c10a}
+      \strng{authorbibnamehash}{5994ddbfa0cabd06bec9795ba531c10a}
+      \strng{authornamehash}{5994ddbfa0cabd06bec9795ba531c10a}
+      \strng{authorfullhash}{5994ddbfa0cabd06bec9795ba531c10a}
+      \strng{authorfullhashraw}{5994ddbfa0cabd06bec9795ba531c10a}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{This synthesis paper proposes to show the principal contributions of Mathematical Morphology (MM) to extracting information from an image.}
+      \field{eventtitle}{12th {{Canadian Symposium}} on {{Remote Sensing Geoscience}} and {{Remote Sensing Symposium}},}
+      \field{journaltitle}{12th {{Canadian Symposium}} on {{Remote Sensing Geoscience}} and {{Remote Sensing Symposium}},}
+      \field{langid}{english}
+      \field{title}{Review {{On Image Analysis With Mathematical Morphology In Remote Sensing}}}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{volume}{4}
+      \field{year}{1989}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{2424\bibrangedash 2429}
+      \range{pages}{6}
+      \verb{doi}
+      \verb 10.1109/IGARSS.1989.577887
+      \endverb
+      \verb{file}
+      \verb C:\Users\Ethel Ogallo\Zotero\storage\I8PPT2HG\Flouzat - 1989 - Review On Image Analysis With Mathematical Morphology In Remote Sensing.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://ieeexplore.ieee.org/document/577887/
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/577887/
+      \endverb
+    \endentry
+    \entry{pesaresiNewApproachMorphological2001}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=0b03addc59567927d86b0e8336aca211}{%
+           family={Pesaresi},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=910b318e6ccdbd1376ea63bbaeeb47f1}{%
+           family={Benediktsson},
+           familyi={B\bibinitperiod},
+           given={J.A.},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b28b6e7bc17ec6e0feadbc5208eda147}
+      \strng{fullhash}{b28b6e7bc17ec6e0feadbc5208eda147}
+      \strng{fullhashraw}{b28b6e7bc17ec6e0feadbc5208eda147}
+      \strng{bibnamehash}{b28b6e7bc17ec6e0feadbc5208eda147}
+      \strng{authorbibnamehash}{b28b6e7bc17ec6e0feadbc5208eda147}
+      \strng{authornamehash}{b28b6e7bc17ec6e0feadbc5208eda147}
+      \strng{authorfullhash}{b28b6e7bc17ec6e0feadbc5208eda147}
+      \strng{authorfullhashraw}{b28b6e7bc17ec6e0feadbc5208eda147}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{A new segmentation method based on the morphological characteristic of connected components in images is proposed. Theoretical definitions of morphological leveling and morphological spectrum are used in the formal definition of a morphological characteristic. In multiscale segmentation, this characteristic is formalized through the derivative of the morphological profile. Multiscale segmentation is particularly well suited for complex image scenes such as aerial or fine resolution satellite images, where very thin, enveloped and/or nested regions must be retained. The proposed method performs well in the presence of both low radiometric contrast and relatively low spatial resolution. Those factors may produce a textural effect, a border effect, and ambiguity in the object/background distinction. Segmentation examples for satellite images are given.}
+      \field{issn}{01962892}
+      \field{journaltitle}{IEEE Transactions on Geoscience and Remote Sensing}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{number}{2}
+      \field{shortjournal}{IEEE Trans. Geosci. Remote Sensing}
+      \field{title}{A New Approach for the Morphological Segmentation of High-Resolution Satellite Imagery}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{volume}{39}
+      \field{year}{2001}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{309\bibrangedash 320}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1109/36.905239
+      \endverb
+      \verb{file}
+      \verb C:\Users\Ethel Ogallo\Zotero\storage\KMII5DYH\Pesaresi and Benediktsson - 2001 - A new approach for the morphological segmentation of high-resolution satellite imagery.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://ieeexplore.ieee.org/document/905239/
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/905239/
+      \endverb
+    \endentry
+    \entry{soilleAdvancesMathematicalMorphology2002}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3c250b7275b2d28a4fc4b9a0b1b7d80e}{%
+           family={Soille},
+           familyi={S\bibinitperiod},
+           given={P.},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0b03addc59567927d86b0e8336aca211}{%
+           family={Pesaresi},
+           familyi={P\bibinitperiod},
+           given={M.},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{e15244f3cb4920efd6fae1a8d4f15f00}
+      \strng{fullhash}{e15244f3cb4920efd6fae1a8d4f15f00}
+      \strng{fullhashraw}{e15244f3cb4920efd6fae1a8d4f15f00}
+      \strng{bibnamehash}{e15244f3cb4920efd6fae1a8d4f15f00}
+      \strng{authorbibnamehash}{e15244f3cb4920efd6fae1a8d4f15f00}
+      \strng{authornamehash}{e15244f3cb4920efd6fae1a8d4f15f00}
+      \strng{authorfullhash}{e15244f3cb4920efd6fae1a8d4f15f00}
+      \strng{authorfullhashraw}{e15244f3cb4920efd6fae1a8d4f15f00}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \true{uniqueprimaryauthor}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{By concentrating on the analysis of the spatial relationships between groups of pixels, mathematical morphology provides us with an image processing strategy complementary to those based on the analysis of the spectral signature of single pixels. A wide variety of morphological transformations are available for extracting structural information in spatial data. Accordingly, a stream of successful applications in geoscience and remote sensing have been reported since the mid-1980s as highlighted in a brief survey. However, recent advances in the theory of mathematical morphology still remain largely unexplored. We show in this paper that they can enhance methodologies for the processing and analysis of earth observation data for tasks as diverse as filtering, simplification, directional segmentation and crest line extraction. We also address important issues overlooked in the past and concerning the applicability of a given morphological filter to earth observation data. In particular, we point out that self-dual or even self-complementary filters are required in many applications to produce results independent of the local contrast of the searched image structures.}
+      \field{issn}{0196-2892}
+      \field{journaltitle}{IEEE Transactions on Geoscience and Remote Sensing}
+      \field{langid}{english}
+      \field{month}{9}
+      \field{number}{9}
+      \field{shortjournal}{IEEE Trans. Geosci. Remote Sensing}
+      \field{title}{Advances in Mathematical Morphology Applied to Geoscience and Remote Sensing}
+      \field{urlday}{1}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{volume}{40}
+      \field{year}{2002}
+      \field{dateera}{ce}
+      \field{urldateera}{ce}
+      \field{pages}{2042\bibrangedash 2055}
+      \range{pages}{14}
+      \verb{doi}
+      \verb 10.1109/TGRS.2002.804618
+      \endverb
+      \verb{file}
+      \verb C:\Users\Ethel Ogallo\Zotero\storage\6QU5PEBC\Soille and Pesaresi - 2002 - Advances in mathematical morphology applied to geoscience and remote sensing.pdf
+      \endverb
+      \verb{urlraw}
+      \verb http://ieeexplore.ieee.org/document/1046853/
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/document/1046853/
+      \endverb
+    \endentry
+  \enddatalist
+  \missing{cavallaroAttributeProfilesTreeofshapes2016}
+  \missing{hermarySmoothMorphologicalLayers2022}
+\endrefsection
+\endinput
+

@@ -1,0 +1,201 @@
+\documentclass[11pt,a4paper]{article}
+
+%-----------------------------------------------------------
+% Encoding and Fonts
+\usepackage[utf8]{inputenc}           % UTF-8 encoding
+\usepackage[T1]{fontenc}              % Font encoding
+%\usepackage{lmodern}
+\usepackage{newtxtext,newtxmath}      % Times font + math
+
+%-----------------------------------------------------------
+% Bibliography
+\usepackage[style=apa, backend=biber]{biblatex}
+\addbibresource{references.biblatex} % BibLaTeX bibliography file
+
+%-----------------------------------------------------------
+% Graphics and Tables
+\usepackage{graphicx}                  % Include graphics
+\usepackage{booktabs}                  % Nice tables
+\usepackage{caption}                   % Captions customization
+
+%-----------------------------------------------------------
+% Page Layout
+\usepackage[margin=1in]{geometry}      % Page margins
+\setlength{\parskip}{0.3em}            % Space between paragraphs
+\setlength{\parindent}{0pt}            % No paragraph indentation
+
+%-----------------------------------------------------------
+% Line spacing
+\usepackage{setspace}
+\setstretch{1.0}                       % Custom line spacing
+
+%-----------------------------------------------------------
+% Colors, hyperlinks, and math
+\usepackage{xcolor} 
+\usepackage[colorlinks=true, citecolor=black, linkcolor=blue, urlcolor=blue]{hyperref} 
+\usepackage{amsmath}
+
+%-----------------------------------------------------------
+% Header and Footer
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{} % Clear default header/footer
+\fancyhead[L]{\textcolor{black!60}{Ethel Ogallo}} 
+\fancyhead[R]{\textcolor{black!60}{ERSIP: Mathematical Morphology}} 
+\fancyfoot[C]{\thepage} 
+%\renewcommand{\headrulewidth}{0.pt} % Remove header line
+
+%-----------------------------------------------------------
+\title{\LARGE \textbf{Mathematical Morphology in Remote Sensing: 1980s-2000s}}
+\author{{Ethel Ogallo}}
+\date{{\today}}
+
+\begin{document}
+
+\maketitle
+
+%\section*{Introduction}
+
+Mathematical Morphology (MM), founded by Matheron and Serra in the 1967, is a non-linear image analysis framework based on set theory and  
+lattice structures. This report looks at the promises and limitations of MM as described in research from the 1980s and the 2000s, the challenges, evolution and 
+advancements in MM methods into the 2000s, and their limitations given the current state of the field.
+
+%-----------------------------------------------------------
+\section*{Mathematical Morphology in the 1980s}
+
+\subsection*{Promises of MM in the 1980s}
+
+In the 1980s , classical image processing methods based on linear transformations were the norm however they were limited to 
+pixel-level operations and such a need apply automatic detection of shapes and structures arose. This is where Mathematical 
+Morphology (MM) comes into play because of its ability to process geometric structures in images using set operators acting on the
+objects independent of shape and grey level. 
+
+The work of \parencite{destivalMathematicalMorphology1986} explored MM effectiveness in extracting linear features, such as roads and ridges, 
+highlighting that it was best used in combination with classical methods within a single pipeline which \parencite{flouzatReviewImageAnalysis1989} 
+further emphasized on by demonstrating that it offered sequential operations allowing for more flexible and efficient processing pipelines. their
+studies also demonstrated the promise of MM in automating feature extraction with the use of structuring elements to replace manual 
+photointerpratation was was very time consuming. 
+
+In addition to linear feature extraction, MM was promising in local contrast detection and boundary delineation which was capable because of 
+morphological gradients, the difference between dilation and erosion highlighting the changes in intensity which is useful
+for edge detection. 
+
+Another promise was on the ability of MM to handle image noise and texture by using morphological filters such as opening and closings. 
+These transformations removed small scale variations while still preserving larger important structures in the image. This feature of MM 
+was very useful for speckle removal in radar imagery and spectral analysis. 
+
+Multi-scale image processing was another area highlighted by \parencite{flouzatReviewImageAnalysis1989} demonstrating MM's versatility in
+adapting to process different level of image represenattion i.e. low-level(pixel-level) to high level (object-level) analysis. 
+
+
+\subsection*{Limitations given current knowledge}
+
+Although promising, early MM approaches in the 1980s had several limitations when viewed from today's knowledge and applications point of view.
+
+MM operations were very dependent on the choice, size and order of structuring elements which had to be manually defined . 
+This dependency reduced automation and impacted results which makes the process less reproducible. 
+
+Early MM methods were developed for greyscale and binary imagery and thus would struggle with multispectral or hyperspectral data which is The
+standard today. Additionally, feature extraction also relied on simple semantic assumptions, such as treating roads as bright lines or 
+ridges as highly textured areas, which proved to be ineffective to complex landscapes like urban areas. 
+
+MM methods in this era were limited in adaptability and statistical learning. This 
+meant that noisy or mixed pixels were not handled properly compared to modern machine learning and deep learning methods which can learn from
+the data itself.
+
+While decomposition into simpler operations improved computational efficiency at the time, early MM approaches are 
+inefficient for larger or very high-resolution images, as the basic morphological filters proposed were insufficient for capturing 
+complex object boundaries, limiting their efficiency in heterogeneous landscapes.
+
+%-----------------------------------------------------------
+\section*{Mathematical Morphology in the 2000s}
+
+\subsection*{Evolution of MM from the 1980s}
+
+The 2000s brought alot of advancement on Mathematical Morphology (MM) improving on the methods defined in the 1980s as well as 
+addressing the limitations of those methods.
+
+A major improvement was the use of connected operators which use morphological characteristics over simple structuring elements 
+(SE)-based operators because they preserve object shapes better by focusing on spatial relationships and their connectivity. \parencite{soilleAdvancesMathematicalMorphology2002}. 
+
+The research in the 1980s also highlighted that the results were sensitive to noise and texture variations. To address the issue 
+of noise sensitivity the 2000s introduced the use of geodesic metrics over euclidean metrics to constrain operations within a 
+mask or object thus following its true shape and hence reducing sensitivity to noise \parencite{soilleAdvancesMathematicalMorphology2002}. 
+Additionally, the extension of the multiscale framework approach proposed by \parencite{pesaresiNewApproachMorphological2001} which uses leveling, 
+morphological profiles and their derivatives to extract features without relying on gradient computation mitigates the noise sensitivity issue. 
+
+Remote sensing technology advanced in the 2000s offering color imagery which required MM to be extended beyond the early operations done on 
+grayscale and binary imagery. One development was in the extension of MM to multivariate MM which allowed operations on multichannel images
+using different approaches like rank-based morphological filters which allows the user to tune the flexibility of the structuring element 
+fit by specifying how many pixels are allowed not to fit the image structures, and order-independent skeletonization which produced consistent
+results regardless of the order of pixel processing as was a main limitation of early MM methods \parencite{soilleAdvancesMathematicalMorphology2002}.
+
+Several strategies of multivariate morphology were also introduced as a solution for the limitations of early MM methods developed for single-band images.
+These included approaches like vector ordering, fuzzy morphology and graph-based methods for efficient feature extraction and classification specifically 
+for multichannel imagery \parencite{aptoulaComparativeStudyMultivariate2007}.
+
+
+\subsection*{Challenges in the MM community in the 2000s}
+
+The Mathematical Morphological (MM) community faced a couple of challneges in the 2000s. These challenges were largely due to the development in 
+the remote sensing technology which brings an increase in imagery data in terms of data types and data volume.
+
+One challenge was in the extension of MM from grayscale imagery whose pixel values could be easily ordered using
+simple operations like min and max to multivalued imagery where this ordering is not as simple because here the pixels are 
+ represented as vectors which are not inherently ordered. Several strategies were developed to mitigate this including total, marginal or partial orderings but there still was
+not a standard solution that worked for all multivalued data types or applications \parencite{aptoulaComparativeStudyMultivariate2007, soilleAdvancesMathematicalMorphology2002} 
+limimting generalization to complex datasets.
+
+The challenge of over-segmentation in complex scenes such as urban areas carried over from 1980s where MM methods like watershed segmentation and 
+edge detection were prone to this due to texture effects leading to fragmented results. Methods such as multiscale analysis and marker-controlled watershed
+segmentation were proposed to guide segmentation process \parencite{pesaresiNewApproachMorphological2001, soilleAdvancesMathematicalMorphology2002} however the 
+a new challenge of parameter sensitivity was created.
+
+Computational efficiency persisted as a challenge especially as image quality increased and datasets grew larger. Proposed MM methods like 
+derivatives of morpholical profiles and directional structuring elements required multiple passes over the data which increased computational
+costs \parencite{soilleAdvancesMathematicalMorphology2002}.
+
+
+\subsection*{Promises of MM in the 2000s}
+
+The promises of Mathematical Morphology (MM) in the 2000s were centered around working with multichannel images.A 
+major development was the use of morphological characteristics of connected operators for segmentation which preserved object shapes better.
+and the use of residuals from morphological transformations computed on geodesic metrics which enabled better segmentation
+of high resolution imagery.
+
+Another promise was using morphological profiles and their derivatives \parencite{pesaresiNewApproachMorphological2001} which provided 
+scale-dependent features without having to rely on gradient computation which was unsatble. This proved to be
+effective in reconstruction-based operations like classification and segmentation because it offered more accurate shape descriptions
+and reduced over segmentation.
+
+The extension of MM to multivariate MM introduced vector-ordering schemes that allowed operators to work directly on multivalued data \parencite{aptoulaComparativeStudyMultivariate2007}. 
+These schemes included total ordering, marginal ordering, and graph-based methods which enabled MM to handle multichannel data.
+Additionally, the directional and multiscale operators enabled analysis of spatial structures at varying scales and orientations useful for
+detecting anisotopic structures and elongated features like leinear segments \parencite{soilleAdvancesMathematicalMorphology2002}. 
+ 
+The 2000s promise of consistent results especially in complex scenes was achieved by using order-independent skeletonization which reduced sensitivity
+to pixel processing order while self-dual and self-complementary morphological filters provided robustness to local contrast variations which ensured
+consistent results\parencite{soilleAdvancesMathematicalMorphology2002}.
+
+The integration of MM with other techniques such as machine learning and GIS also promised a more adaptive image processing \parencite{soilleAdvancesMathematicalMorphology2002}. 
+By combining the pros of MM in shape and structure analysis with the learning capabilities of machine learning, an improved classification and 
+feature extraction systems could be developed. 
+
+\subsection*{Limitations given current knowledge}
+
+From the current point of view, the Mathematical Morphology (MM) approaches developed in the 2000s have some limitations. The issue of 
+computational cost when it pertains to the methods persisted. Given the current state of technology where we have hyperspectral data as well 
+as an enormous amount of data, the computational intensive nature of these methods would only be increased further especially 
+for real time or large scale remote sensing workflows.
+
+MM methods that were parameter-free or data-driven was still largely undeveloped as many of the methods developed in the 2000s required proper selection of parameters such as 
+the size, shape and orientation of structuring elements which played a key role in the outcome especially in multi-scale segmentation.
+
+Another limimtation is on vector ordering where there was no universally applicable method in multivariate morphology. 
+This is because the stragtegies proposed produced different results given their specific assumptions for example lexicographical 
+ordering had inconsistencies based on the order of channels.
+
+%\section*{References}
+\printbibliography
+
+\end{document}
