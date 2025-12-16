@@ -1,0 +1,105 @@
+\documentclass[11pt,a4paper]{article}
+
+%-----------------------------------------------------------
+% Encoding and Fonts
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{newtxtext,newtxmath}
+
+%-----------------------------------------------------------
+% Bibliography
+\usepackage[style=apa, backend=biber]{biblatex}
+\addbibresource{references.biblatex} % BibLaTeX bibliography file
+
+%-----------------------------------------------------------
+% Graphics and Tables
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{caption}
+
+%-----------------------------------------------------------
+% Page Layout
+\usepackage[margin=1in]{geometry}
+\setlength{\parskip}{0.3em}
+\setlength{\parindent}{0pt}
+
+%-----------------------------------------------------------
+% Line spacing
+\usepackage{setspace}
+\setstretch{1.0}
+
+%-----------------------------------------------------------
+% Colors, hyperlinks, and math
+\usepackage{xcolor}
+\usepackage[colorlinks=true, citecolor=black, linkcolor=blue, urlcolor=blue]{hyperref}
+\usepackage{amsmath}
+
+
+%-----------------------------------------------------------
+\begin{document}
+
+% Manual title (normal document style)
+% Name, date, and tagline (left-aligned, indented)
+Ethel Ogallo \par
+\today \par
+\textit{Efficient Remote Sensing Image Processing} \par
+
+\vspace{1.2em}
+
+% Main title (centered)
+\begin{center}
+{\Large\bfseries Tree-based Image Processing: Pros and Cons }
+\end{center}
+
+
+% \section*{Overview}
+Tree based image processing involves analyzing image via a hierarchy of connected components represented as trees. 
+These heirachies can be either inclusion trees such as max and min trees or partition trees such as binary partition trees 
+and $\alpha$-trees. This framework allows for efficient representation and analysis of images at multiple scales and resolutions includes 
+tools such as attribute profiles which are a generalization of morphological profiles by replacing structuring 
+elements with attribute filters operating on connected components and pattern spectra which provides the statistical 
+distribution of the attribute values. 
+
+
+\section*{Advantages}
+Some of the advantages of tree based image processing include:
+
+Computational efficiency and scalability beacuse it requires fewer operations. This is possible because the tree structure is 
+constructed only once and further analysis can be performed on the tree rather than the entire image since the 
+trees store the hierachical relationships between regions in the image. The tree construction algorithms achieve a $O(N)$ or $O(N \log N)$ 
+complexity which is an improvement from the morphological profiles which require $O(N²)$ complexity, 
+where N is the number of pixels in the image
+
+Flexibility in extraction of features because of the use of computable attributes such as geometric (e.g. area, volume) and statistical 
+(e.g. standard deviation, variance) of the connected components. This allows for different types of features to be extracted given an application/task.
+
+Self-duality where tree structures such as Tree-of-Shapes($ToS$) of $\alpha$-tree represent both bright and dark
+structures simulatneosuly i.e. the local extrema are processed together and represented in a single tree. This leads to a 
+complete reconstruction of the image without redudancy and loss of information.
+
+In image classification applications, it has proved to be more accurate because the use of attribute
+profiles which can capture the complex spatial relationships and structures in images more effectively. They have also 
+been integrated into machine learning and deep learning as they are used as features in models reducing the need for large training datasets. 
+
+\section*{Limitations}
+Some of the limitations of tree based image processing include:
+
+Sensitivity to parameters such as choice of attributes and threshold for filtering which can impact the result of the analysis.
+Careful selection of these parameters is necesssary depending on the data. Manual thresholds may not generalize well
+across different datasets whereas automatic methods may add onto the overall compuational cost.
+
+Chaining effect from trees like the $\alpha$-tree where connected components may merge dissimilar regions due to its nature which 
+can impact the accuracy of the analysis. On the other hand, oversegmentation can occur when the tree structure, i.e binary partition trees, 
+creates too many small regions that do not correspond to meaningful objects in the image.
+
+Increase in memory usage and redundancy due to generation of attribute profiles especially when multiple attributes and thresholds are combined. 
+Pattern spectra can remedy this but it can lose essential spatial arrangement which may be necessary for some tasks.
+ 
+
+% \section*{References}
+% \parencite{dallamuraMorphologicalAttributeProfiles2010}.
+% \parencite{bosiljPartitionInclusionHierarchies2018}.
+% \parencite{maiaClassificationRemoteSensing2021}.
+% \printbibliography
+
+\end{document}
